@@ -12,6 +12,6 @@ public class Corrector {
             count++;
             stringBuilder.append(count).append(") ").append(str).append("\n");
         }
-        return stringBuilder.toString();
+        return stringBuilder.toString().trim();
     }
 }
